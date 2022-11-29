@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EMSI\\4IIR\\S7\\Dot Net\\Gestion Domotique\\Gestion Domotique\\Gestion Domotique.csproj",
+      "projectUniqueName": "D:\\EMSI\\4IIR\\S7\\Dot Net\\Gestion-domotique\\Gestion Domotique\\Gestion Domotique.csproj",
       "projectName": "Gestion Domotique",
-      "projectPath": "D:\\EMSI\\4IIR\\S7\\Dot Net\\Gestion Domotique\\Gestion Domotique\\Gestion Domotique.csproj",
+      "projectPath": "D:\\EMSI\\4IIR\\S7\\Dot Net\\Gestion-domotique\\Gestion Domotique\\Gestion Domotique.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\EMSI\\4IIR\\S7\\Dot Net\\Gestion Domotique\\Gestion Domotique\\obj\\",
+      "outputPath": "D:\\EMSI\\4IIR\\S7\\Dot Net\\Gestion-domotique\\Gestion Domotique\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

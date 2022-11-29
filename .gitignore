@@ -190,3 +190,18 @@ git_stats/*
 StyleCop.Cache
 bin
 obj
+*.lock
+.vs/Gestion Domotique/DesignTimeBuild/.dtbcache.v2
+*.vsidx
+*.v1
+.vs/ProjectEvaluation/gestion domotique.metadata.v2
+*.v2
+*.cache
+Gestion Domotique/obj/Gestion Domotique.csproj.nuget.dgspec.json
+Gestion Domotique/obj/Debug/net6.0-windows/Gestion Domotique_MarkupCompile.i.cache
+Gestion Domotique/obj/Gestion Domotique.csproj.nuget.dgspec.json
+Gestion Domotique/obj/project.assets.json
+Gestion Domotique/obj/project.nuget.cache
+Gestion Domotique/obj/Debug/net6.0-windows/Gestion Domotique.GeneratedMSBuildEditorConfig.editorconfig
+*.editorconfig
+*.cache
