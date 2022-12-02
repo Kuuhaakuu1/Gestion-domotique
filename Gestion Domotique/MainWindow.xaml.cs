@@ -20,9 +20,49 @@ namespace Gestion_Domotique
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static Canvas c = new Canvas();
         public MainWindow()
         {
             InitializeComponent();
+            
+		
         }
+
+		
+
+		
+
+        private void RedRectangle_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragDrop.DoDragDrop(RedRectangle, RedRectangle, DragDropEffects.Move);
+            }
+        }
+
+        private void Canvas_Drop(object sender, DragEventArgs e)
+        {
+            Point p= e.GetPosition(canvas);
+
+            Rectangle rectangle = new Rectangle();
+            rectangle.Width = RedRectangle.Width;
+            rectangle.Height = RedRectangle.Height;
+            rectangle.Fill = RedRectangle.Fill;
+
+          
+            Canvas.SetLeft(rectangle,p.X);
+            Canvas.SetTop(rectangle,p.Y);
+            canvas.Children.Add(rectangle);
+            rectangle.MouseRightButtonDown += rectangle_MouseRightButtonDown;
+
+        }
+        void rectangle_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            canvas.Children.Remove((Rectangle) sender);
+        }
+
+
+
+
     }
 }
